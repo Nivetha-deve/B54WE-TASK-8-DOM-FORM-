@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form id="myform" >
+        <h1>Form</h1>
+          <label class="main" for="Firstname">Firstname</label><br>  
+         <input class="main"  type="text" id="Firstname" placeholder="First"><br>
+            
+        <label class="main" for="Lastname">Last Name</label><br>
+        <input type="text" class="main" id="Lastname" placeholder="Last"><br>
+            
+        <label class="main" for="Adress">Adress</label><br>
+        <input type="text" class="main" id="Adress"><br>
+      
+        <label class="main" for="Pincode">Pincode</label><br>
+        <input type="number" class="main" id="Pincode"><br>
+
+        <label class="main" for="gender">Gender</label><br>
+        <select class="main" name="gender" id="Gender"><br>
+        <option>Male</option>
+        <option>Female</option>
+        <option>others</option>
+        </select><br>
+
+        <label for="foods" class="main2">Select at least two Foods:</label><br>
+        <input type="checkbox"  class="main2"  id="Foods" name="foods[]"  value="Curd Rice">Curd Rice<br>
+        <input type="checkbox" class="main2" id="Foods"  name="foods[]"  value="Meals">Meals<br>
+        <input type="checkbox" class="main2"  id="Foods"  name="foods[]"  value="Mushroom Rice">Mushroom Rice<br>
+       <input type="checkbox"  class="main2"  id="Foods"  name="foods[]"  value="Panner Rice">Panner Rice<br>
+       <input type="checkbox" class="main2"  id="Foods"  name="foods[]" value="Fride Rice">Fride Rice<br>
+       
+         <label class="main" for="state">State</label><br>
+         <input class="main" type="text" id="State"><br>
+            
+         <label class="main" for="country">Country</label><br>
+         <input class="main" type="text" id="Country"><br>
+        
+         <input type="submit" class="sub" value="submit">
+    </form>
+    
+    <table class="main1" id="itemlist">
+        <thead>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Adress</th>
+            <th>Pincode</th>
+            <th>Gender</th>
+            <th>Foods</th>
+            <th>State</th>
+            <th>Country</th>
+        </tr>
+    </thead>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
